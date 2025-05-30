@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  background: #fafafa;
+  color: #333;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#questionDiv {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#answersDiv button {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#timerDiv, #progressDiv, #feedbackDiv, #prizeDiv, #countdownDiv {
+  margin-top: 10px;
+  font-weight: bold;
+}
+#prizeDiv {
+  color: green;
+  font-size: 1.2em;
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0%, 100% { color: green; }
+  50% { color: darkgreen; }
+}
